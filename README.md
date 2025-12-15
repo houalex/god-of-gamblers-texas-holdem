@@ -124,10 +124,10 @@ print(f"Your total score is {total_score}/500.")
 
 ## Future Improvements
 
-- Add an AI opponent that plays real Texas Hold'em strategy
+- Add an AI opponent that plays real Texas Hold'em strategy： 
   I am currently learning introductory artificial intelligence techniques to enable the user to play against a true strategic computer opponent, rather than a fixed hand-comparison system.
   The first upgrade will be a simple perceptron model that allows the computer to make basic decisions such as fold, call, or raise based on hand strength and board texture.
 
-- Upgrade to a Q-learning agent
+- Upgrade to a Q-learning agent： 
   After the perceptron stage, the next goal is to implement a reinforcement learning model using Q-learning.
   The AI will learn optimal strategies by simulating large numbers of hands, adjusting its policy through reward signals, and gradually improving its long-term expected value in each decision state.
